@@ -14,4 +14,5 @@ test("books page",async({page})=>
     await page.waitForTimeout(3000);
     await page.locator("#products-viewmode").selectOption("List");
     await page.waitForTimeout(2000);
+    await page.waitForTimeout(3000);
 })
